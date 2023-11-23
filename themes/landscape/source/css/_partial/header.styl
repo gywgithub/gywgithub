@@ -31,7 +31,7 @@
   height: 100%
   background: url(banner-url) center #000
   background-size: contain
-  z-index: -1
+  z-index: -2
 
 #header-title
   text-align: center
@@ -80,7 +80,6 @@ $nav-link
 
 .nav-icon
   @extend $nav-link
-  font-family: font-icon
   text-align: center
   font-size: font-size
   width: font-size
@@ -98,22 +97,12 @@ $nav-link
 
 #main-nav-toggle
   display: none
-  &:before
-    content: "\f0c9"
   @media mq-mobile
     display: block
 
 #sub-nav
   float: right
   margin-right: -15px
-
-#nav-rss-link
-  &:before
-    content: "\f09e"
-
-#nav-search-btn
-  &:before
-    content: "\f002"
 
 #search-form-wrap
   position: absolute
