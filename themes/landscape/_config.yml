@@ -4,6 +4,7 @@ menu:
   文章: /archives
 rss: /atom.xml
 banner: "images/banner_1.jpg"
+subtitle: 
 
 # Content
 excerpt_link: Read More
@@ -41,7 +42,7 @@ index_widgets:
 
 # Widget behavior
 archive_type: 'monthly'
-show_count: false
+show_count: true
 recent_posts_limits: 5
 
 # Miscellaneous
