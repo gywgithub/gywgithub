@@ -10,7 +10,7 @@ https://juejin.cn/user/501033035632093
 
 ### 微信公众号
 
-草帽Lufei
+草帽lufei
 
 ### GitHub Pages 博客预览地址
 
